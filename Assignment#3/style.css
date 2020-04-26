@@ -1,0 +1,173 @@
+#header{
+    background-color:royalblue;
+    height: 40px;
+    
+    
+}
+li{
+    display: inline;
+}
+
+.facebook {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    
+    
+}
+.instragram {
+
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left: 110px;
+    top: 10px;
+
+}
+.youtube{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left: 115px;
+    top: 10px;
+
+}
+.twitter{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left: 105px;
+    top: 10px;
+}
+.whatsapp{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+.header_para{
+    position: relative;
+    left: 250px;
+    top: 7px;
+    color: white;
+}
+                            /* BUTTON  */
+.buttonA{
+    position: relative;
+    left: 320px;
+    top: 5px;
+}
+.buttonB{
+    position: relative;
+    left: 321px;
+    top: 5px;
+}
+.buttonC{
+    position: relative;
+    left: 322px;
+    top: 5px;
+}
+                        /* Header2 */
+#header2{
+    height: 60px;
+    background-color:red;
+   
+}
+ .Sayalni_logo{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 90px;
+} 
+.home{
+    position: relative;
+    left: 380px;
+    bottom: 15px;
+    
+}
+#buttonHome{
+
+    border-radius: 5px;
+    background-color: blue;
+    
+}
+                        /* HomePic */
+#homepic{
+ height: 520px;
+ width: 1340px;
+ background-color: pink;   
+}
+.homepic{
+    width: 1335px;
+    height: 530px;
+
+}
+
+
+
+
+                        /* INTRODUCTION */
+.intro{
+    display: inline;
+    text-align: center;
+    color:blueviolet;
+    position: relative;
+    left: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.duction{
+    display: inline;
+    text-align: center;
+    color: green;
+    position: relative;
+    left: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+                        /* CIRCLE */
+.circle{
+    text-align: center;
+}
+.paragraph1{
+    width: 900px;
+    height: 60px;
+    /* background-color: brown; */
+    position: relative;
+    left: 200px;
+    right: 200px;
+    font-size: large;
+    text-align: justify;
+}
+.paragraph{
+    background-color:lightgray
+}
+                    /* BLUE BLOCK */
+
+.blueblock{
+    width: 1330px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
