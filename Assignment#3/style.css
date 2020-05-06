@@ -1,6 +1,9 @@
+
+
 #header{
     background-color:royalblue;
     height: 40px;
+    width: 1350px;
     
     
 }
@@ -73,7 +76,10 @@ li{
                         /* Header2 */
 #header2{
     height: 60px;
-    background-color:red;
+    width: 1350px;
+    /* background-color:red; */
+    
+
    
 }
  .Sayalni_logo{
@@ -98,7 +104,7 @@ li{
 #homepic{
  height: 520px;
  width: 1340px;
- background-color: pink;   
+ /* background-color: pink;    */
 }
 .homepic{
     width: 1335px;
@@ -129,7 +135,9 @@ li{
 }
                         /* CIRCLE */
 .circle{
-    text-align: center;
+    position: relative;
+    left: 620px;
+    display: inline;
 }
 .paragraph1{
     width: 900px;
@@ -142,14 +150,194 @@ li{
     text-align: justify;
 }
 .paragraph{
-    background-color:lightgray
+    /* background-color:lightgray; */
+    width: 1350px;
 }
                     /* BLUE BLOCK */
 
 .blueblock{
     width: 1330px;
     height: 300px;
-    background-color: blueviolet;
+    background-color: blue;
+    
+}
+        /* FOOD ICON */
+.food_icon{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    display: inline-block
+}
+.food_num{
+    position: relative;
+    top: 70px;
+    left: 150px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: xx-large;
+ font-family: cursive;
+color: white;
+}
+.food_para{
+    display: inline-block;
+    font-size: large;
+    position: relative;
+    left: -25px;
+    top: 110px;
+    color: white;
+
+}
+.span_green{
+    color: palegreen;
+    font-weight: bold;
+}
+                    /* family Icon */
+.family_icon{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+.family_num{
+    position: relative;
+    left: 450px;
+    color: white;
+    font-family: cursive;
+    bottom: 20px;
+    top: -40px;
+    font-weight: bolder;
+    font-size: xx-large;
+ font-family: cursive;
+
+    }
+
+
+.family_para{
+    position: relative;
+    bottom:55px;
+    left:400px ;
+    font-size: large;
+    color: white;
+}
+                /* Medical Icon */
+.medical_icon{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 220px;
+    left: 800px;
+
+}
+.medical_num{
+    font-weight: bolder;
+    font-size: xx-large;
+ font-family: cursive;
+ color: white;
+ position: relative;
+ bottom: 240px;
+ left: 770px;
+ 
+}
+.medical_para{
+    font-size: large;
+    color: white;
+    position: relative;
+    bottom: 272px;
+    display: inline-block;
+    left: 750px;
+}
+                    /* EDUCATION */
+.education_icon{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    bottom:380px;
+    left: 900px;
+
+}
+.education_num{
+    font-weight: bolder;
+    font-size: xx-large;
+ font-family: cursive;
+ color: white;
+  display: inline;
+ position: relative;
+ bottom: 326px;
+ left: 800px;
+
+}
+.education_para{
+    display: inline;
+    font-size: large;
+    color: white;
+    position: relative;
+    bottom: 272px;
+    left: 630px;
+}
+
+
+
+                /* WHAT WE DOING */
+    .what_we{
+        /* background-color: red; */
+        height:40px;
+        width: 1360px;
+        position: relative;
+        text-align: center;
+        font-size: xx-large;
+        color: blue;
+        font-weight: bolder;
+
+    }
+.green{
+    color: green;
+}    
+            /* ONLINE SADQAH */
+.sadqah{
+    border: 1px solid whitesmoke;
+    height: 180px;
+    width: 350px;
+    /* background-color: hotpink; */
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+          /* SAdqah IMG */
+.sadqahimg{
+    display: inline-block;
+    position: relative;
+    left: 145px;
+    top: 30px;
+    height: 70px;
+    width: 70px;
+}
+.sadqahpara{
+    display: inline;
+    position: relative;
+    left: px;
+    top: 70px;
+    color: blueviolet;
+}
+                    /* WELFARE IMG */
+.welfareimg{
+    position: relative; 
+    display: inline;
+    left: 135px;
+    top: 20px;
+
+}
+.welfarepara{
+    color: blueviolet;
+display: inline;
+position: relative;
+left: 40px;
+top: 50px;
 }
 
 
@@ -168,6 +356,329 @@ li{
 
 
 
+.welfare{
+    border: 1px solid whitesmoke;
+    height: 180px;
+    width: 350px;
+    /* background-color: hotpink; */
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 70px;
+}
+.medical{
+    border: 1px solid whitesmoke;
+    height: 180px;
+    width: 350px;
+    /* background-color: hotpink; */
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 70px;
+}
+                /* medical IMG */
+.medicalimg{
+    position: relative;
+    display: inline;
+    top: 15px;
+    left: 120px;
+}
+.medicalpara{
+    color: blueviolet;
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 10px;
+
+}
+                /* DASTARKHWAN */
+                .dastarkhwan{
+                    border: 1px solid whitesmoke;
+                    height: 180px;
+                    width: 350px;
+                    /* background-color: hotpink; */
+                    display: inline-block;
+                    margin: 10px;
+                    position: relative;
+                    left: 70px;}
+                    /* dastarkhwan_para */
+.dastarkhwan_img{
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+.dastarkhwan_para{
+    position: relative;
+    left: 80px;
+    color: blueviolet;
+}
+                /* ROPLANT */
+.roplant{
+    border: 1px solid whitesmoke;
+                    height: 180px;
+                    width: 350px;
+                    /* background-color: hotpink; */
+                    display: inline-block;
+                    margin: 10px;
+                    position: relative;
+                    left: 70px;}
 
 
+/* roplant_img */
+
+.roplantimg{
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.roplant_para{
+    position: relative;
+
+    left: 100px;
+    color: blueviolet;
+}
+                                       /* EDUCATION */
+.EDUCATION{
+    border: 1px solid whitesmoke;
+    height: 180px;
+    width: 350px;
+    /* background-color: hotpink; */
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 70px;
+
+    
+}
+.education_img{
+    position: relative;
+    left: 120px;
+    top: 10px;
+
+}
+.education_para1{
+    color: blueviolet;
+    position: relative;
+    left: 100px;
+    
+}
+/* MISSION */
+.mission{
+    background-color: whitesmoke;
+    height: 800px;
+    width: 1330px;
+    /* border: saddlebrown solid 5px; */
+    padding-left: 80px;
+}
+/* missiontext */
+.missiontext{
+    color: royalblue;
+    font-size: x-large;
+}
+/* HEPATITIS */
+.HEPATITIS{
+    height: 60px;
+    width: 400px;
+    border: grey solid 1px;
+    background-color:whitesmoke;
+    color: blue;
+    font-weight: bolder;
+    
+}
+.hepatitisimg{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+.hepatitistxt{
+    position: relative;
+    left: 20px;
+}
+/* IT */
+.IT{
+    height: 60px;
+    width: 400px;
+    border: grey solid 1px;
+    background-color:whitesmoke;
+    color: blue;
+    font-weight: bolder;
+}
+.ITimg{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+.ITtxt{
+    position: relative;
+    left: 20px;
+}
+/* HOUSING_SOCIETY */
+
+.HOUSING_SOCIETY{
+    height: 60px;
+    width: 400px;
+    border: grey solid 1px;
+    background-color:whitesmoke;
+    color: blue;
+    font-weight: bolder;
+    position: relative;
+    left:500px;
+    bottom: 160px;
+}
+.HOUSING_SOCIETYimg{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+.HOUSING_SOCIETYtxt{
+    position: relative;
+    left: 20px;
+}
+
+
+
+/* THARPARKAR */
+
+.THARPARKAR{
+    height: 60px;
+    width: 400px;
+    border: grey solid 1px;
+    background-color: whitesmoke;
+    color: blue;
+    font-weight: bolder;
+    position: relative;
+    left:500px;
+
+    bottom: 160px;
+}
+.THARPARKARimg{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+}
+.THARPARKARtxt{
+    position: relative;
+    left: 20px;
+}
+                                    /* IMAGE GALLERY */
+.blue{ height:40px;
+width: 1360px;
+position: relative;
+text-align: center;
+font-size: xx-large;
+color: blue;
+font-weight: bolder;
+
+}
+.gallery{ height:40px;
+    width: 1360px;
+    position: relative;
+    /* text-align: center; */
+    font-size: xx-large;
+    color: green;
+    font-weight: bolder;
+    }
+    /* IMAGE */
+.image{
+    position: relative;
+    display: inline;
+    height: 180px;
+    width: 250px;
+}
+/* 
+FOOTER */
+.black{
+    background-color: black;
+    height: 400px;
+    width: 1350px;
+    color: white;
+}
+.footer{
+    position: relative;
+    display: inline;
+    top: 180px;
+    left: 130px;
+}
+.a{
+    position: relative;
+    top: 80px;
+    left: 120px;
+
+}
+
+.b{
+    position: relative;
+    top: 85px;
+    left: 120px;
+
+}
+
+.c{
+    position: relative;
+    top: 85px;
+    left: 130px;
+
+}
+
+.d{
+    position: relative;
+    top: 80px;
+    left: 130px;
+
+}
+
+.e{
+    position: relative;
+    top: 80px;
+    left: 130px;
+}
+
+.f{
+    position: relative;
+    top: 60px;
+    left: 130px;
+}
+                        /* BUTTON */
+.Buttonhome{
+    position: relative;
+    bottom: 15px;
+    left: 550px;
+}
+.Buttonabout{
+    position: relative;
+    bottom: 15px;
+    left: 550px;
+        
+}
+.Buttonservics{
+    position: relative;
+
+    left: 550px;
+    bottom: 15px;
+}
+
+.Buttonfuture{
+    position: relative;
+    left: 550px;
+    bottom: 15px;
+}
+
+.Buttonmedia{
+    position: relative;
+    bottom: 15px;
+    left: 550px;
+}
+.Buttonnews{
+    position: relative;
+    bottom: 15px;
+    left: 550px;
+}
+
+
+.Buttondonationss{
+    position: relative;
+    bottom: 15px;
+    left: 550px;
+    
+}
 
